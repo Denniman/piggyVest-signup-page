@@ -142,3 +142,20 @@ signupbtn:focus {
   box-shadow: none;
   outline: none;
 }
+
+/* already have an account?*/
+.container p a {
+  color: #ffffff;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+/* hover opacity */
+.container p a:hover {
+  opacity: 0.6;
+} 
+/* already have account margin */
+.container p:last-child {
+  margin: 2rem 0px 4rem 0px;
+}
+

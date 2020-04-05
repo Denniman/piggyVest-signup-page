@@ -75,3 +75,29 @@ form {
   align-items: center;
   margin-bottom: 1rem;
 }
+
+/* styles the form label */
+.form-container form label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  align-self: flex-start;
+  color: #4a5568;
+  margin-bottom: 4px;
+}
+/* styled the input field */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+  width: 96%;
+  height: 58px;
+  margin: 5px 0 22px 0;
+  background-color: #edf2f7;
+  font-family: Karla, sans-serif;
+  padding-left: 1rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  border: 0px;
+  color: #4a5568;
+}

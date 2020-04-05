@@ -25,3 +25,53 @@ body {
   width: 100%;
   overflow-y: scroll;
 }
+/* adjust the logo margin */
+.piggylogo {
+  margin: 3rem 0px;
+}
+
+.form-container {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  padding-top: 2rem;
+  border-radius: 1.25rem;
+  border-bottom-left-radius: 0px;
+}
+
+form {
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 3rem;
+}
+
+.form-container h1 {
+  font-size: 1.5rem;
+  color: #083e9e;
+  text-align: center;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.form-container p {
+  font-size: 0.875rem;
+  color: #4a5568;
+  font-family: Karla, sans-serif;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+.form-container form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}

@@ -28,6 +28,7 @@ body {
 /* adjust the logo margin */
 .piggylogo {
   margin: 3rem 0px;
+  align-self: normal;
 }
 
 .form-container {

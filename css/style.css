@@ -178,12 +178,12 @@ signupbtn:focus {
   align-items: center;
   flex-direction: column;
   }
-  
-  .form-container form label {
-    font-size: 0.75rem;
-    font-weight: 700;
-    align-self: flex-start;
-    margin-bottom: 4px;
+  .form-container form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
   }
 }
 

@@ -3,6 +3,14 @@
   src: url("../font/UFont\ Sans\ Medium.ttf");
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -185,19 +193,6 @@ signupbtn:focus {
     align-items: center;
     margin-bottom: 1rem;
   }
-  input[type="text"],
-input[type="number"],
-input[type="email"],
-input[type="password"] {
-  width: 96%;
-  height: 58px;
-  margin: 5px 0 22px 0;
-  padding-left: 1rem;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  border-radius: 3px;
-  border: 0px;
-}
 }
 
  @media only screen and (min-width: 992px) {
